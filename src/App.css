@@ -15,15 +15,22 @@
 }
 
 .letter {
-  /* padding: 1em; */
-  width: 50%;
+  width: 80%;
+  max-width: 910px;
   overflow-y: scroll;
-  height: 500px;
-  transition: height 1s;
+  max-height: 500px;
+  height: 100vh;
+  transition: max-height 1s;
+}
+
+@media screen and (max-height: 500px) {
+  .letter {
+    max-height: 250px;
+  }
 }
 
 .letter.closed {
-  height: 0px;
+  max-height: 0px;
 }
 
 .letter p {

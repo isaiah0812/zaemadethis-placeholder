@@ -22,8 +22,6 @@ function App() {
         Version ✌🏿 Coming Soon<span>.</span><span>.</span><span>.</span>
       </h1>
       <div className={letterClass}>
-        {/* TODO decrease font size for the letter (use em instead) */}
-        {/* TODO increase width to 80%, max width of like 910px or something. */}
         <p>
           I really did try to get the album out this year. I wanted to make the
           rollout something that hadn't been seen from an artist like me. I
@@ -60,7 +58,7 @@ function App() {
           regardless of the platform, so thanks for reading.
         </p>
         <p>
-          "Zae's Crib" is coming soon.🙂
+          "Zae's Crib" is coming soon.🎉
         </p>
         <br />
         <p className="signature">
